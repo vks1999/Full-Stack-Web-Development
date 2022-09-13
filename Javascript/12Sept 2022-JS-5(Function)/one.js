@@ -1,10 +1,10 @@
-// // JS Function
+// JS Function
 
-// function add() {
-//     console.log("Addition");
-// }
+function add() {
+    console.log("Addition");
+}
 
-// // Function with parameters
+// Function with parameters
 
 // function add(a, b) {
 //     console.log(a + b);
@@ -14,7 +14,7 @@
 // add(5, 34); //39
 // add(4, 3); //7
 
-// Function with parameters & default value
+//Function with parameters & default value
 
 // function add(a, b, c = 3) {
 //     console.log(a + b + c);
@@ -33,8 +33,20 @@
 // let r5 = add(44, 62);
 // console.log(r5);
 
-function calAge(years) {
-    return 2022;
+// let currentYear = 2022
+// let age = 1983;
+
+
+function calAge(y) {
+    return 2022 - y
 }
-let age1 = calAge(1983);
-console.log(age1);
+console.log(calAge(1983));
+console.log("object");
+
+
+
+
+
+
+
+
