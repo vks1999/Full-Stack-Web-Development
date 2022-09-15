@@ -3,6 +3,11 @@
 function add() {
     console.log("Addition");
 }
+add();
+add();
+add();
+add();
+add();
 
 // Function with parameters
 
@@ -37,11 +42,11 @@ function add() {
 // let age = 1983;
 
 
-function calAge(y) {
-    return 2022 - y
-}
-console.log(calAge(1983));
-console.log("object");
+// function calAge(y) {
+//     return 2022 - y
+// }
+// console.log(calAge(1983));
+// console.log("object");
 
 
 
