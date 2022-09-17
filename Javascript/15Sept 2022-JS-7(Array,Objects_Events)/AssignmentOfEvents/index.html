@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Of JS</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./one.js"></script>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="box1">
+            <h1>onmouseover: </h1>
+            <p>Mouse over to change button background color.</p>
+            <button class="btn1" id="mouseOverEx1" onmouseover="mouseOverEx()">Mouse
+                Over</button>
+        </div>
+        <div class="box2">
+            <h1>onmouseout: </h1>
+            <p>Mouse out to change button background color.</p>
+            <button class="btn2" id="mouseOutEx1" onmouseout="mouseOutEx()">Mouse
+                Out</button>
+        </div>
+        <div class="box3">
+            <h1>onclick: </h1>
+            <p>Click to change button background color.</p>
+            <button class="btn3" id="onClickEx1" onclick="onClickEx()">On Click</button>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box1">
+            <h1>ondblclick: </h1>
+            <p>Double click to change button background color.</p>
+            <button class="btn4" id="dblclickex" ondblclick="onDblClickEx()">On Double Click</button>
+        </div>
+        <div class="box2">
+            <h1>onfocus: </h1>
+            <p>Click to change input background color.</p>
+            <input type="text" placeholder="On Focus" class="input1" id="ip1" onfocus="onFocusEx()">
+        </div>
+        <div class="box3">
+            <h1>onblur: </h1>
+            <p>Change lower case to upper case onblur events.</p>
+            <input type="text" id="blur123" onblur="blur_theInput()">
+        </div>
+    </div>
+</body>
+
+</html>
