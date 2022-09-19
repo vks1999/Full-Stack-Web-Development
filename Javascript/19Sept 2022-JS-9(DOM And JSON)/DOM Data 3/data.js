@@ -1,0 +1,414 @@
+let employees = [{
+    "id": 1,
+    "first_name": "Kerwinn",
+    "gender": "Male"
+}, {
+    "id": 2,
+    "first_name": "Lindie",
+    "gender": "Female"
+}, {
+    "id": 3,
+    "first_name": "Ivor",
+    "gender": "Male"
+}, {
+    "id": 4,
+    "first_name": "Leah",
+    "gender": "Female"
+}, {
+    "id": 5,
+    "first_name": "Klarika",
+    "gender": "Female"
+}, {
+    "id": 6,
+    "first_name": "Ermengarde",
+    "gender": "Female"
+}, {
+    "id": 7,
+    "first_name": "Danyette",
+    "gender": "Female"
+}, {
+    "id": 8,
+    "first_name": "Che",
+    "gender": "Male"
+}, {
+    "id": 9,
+    "first_name": "Rycca",
+    "gender": "Female"
+}, {
+    "id": 10,
+    "first_name": "Mozes",
+    "gender": "Male"
+}, {
+    "id": 11,
+    "first_name": "Hugibert",
+    "gender": "Male"
+}, {
+    "id": 12,
+    "first_name": "Sergent",
+    "gender": "Male"
+}, {
+    "id": 13,
+    "first_name": "John",
+    "gender": "Male"
+}, {
+    "id": 14,
+    "first_name": "Gaby",
+    "gender": "Female"
+}, {
+    "id": 15,
+    "first_name": "Jesus",
+    "gender": "Male"
+}, {
+    "id": 16,
+    "first_name": "Andromache",
+    "gender": "Genderqueer"
+}, {
+    "id": 17,
+    "first_name": "Eleanora",
+    "gender": "Female"
+}, {
+    "id": 18,
+    "first_name": "Hamel",
+    "gender": "Male"
+}, {
+    "id": 19,
+    "first_name": "Wenda",
+    "gender": "Female"
+}, {
+    "id": 20,
+    "first_name": "Haily",
+    "gender": "Male"
+}, {
+    "id": 21,
+    "first_name": "Neille",
+    "gender": "Female"
+}, {
+    "id": 22,
+    "first_name": "Cobb",
+    "gender": "Male"
+}, {
+    "id": 23,
+    "first_name": "Dorothee",
+    "gender": "Female"
+}, {
+    "id": 24,
+    "first_name": "Codie",
+    "gender": "Female"
+}, {
+    "id": 25,
+    "first_name": "Claudell",
+    "gender": "Male"
+}, {
+    "id": 26,
+    "first_name": "Brendon",
+    "gender": "Male"
+}, {
+    "id": 27,
+    "first_name": "Christiana",
+    "gender": "Female"
+}, {
+    "id": 28,
+    "first_name": "Elsie",
+    "gender": "Female"
+}, {
+    "id": 29,
+    "first_name": "Christos",
+    "gender": "Male"
+}, {
+    "id": 30,
+    "first_name": "Ossie",
+    "gender": "Male"
+}, {
+    "id": 31,
+    "first_name": "Bail",
+    "gender": "Bigender"
+}, {
+    "id": 32,
+    "first_name": "Goober",
+    "gender": "Male"
+}, {
+    "id": 33,
+    "first_name": "Horacio",
+    "gender": "Male"
+}, {
+    "id": 34,
+    "first_name": "Vern",
+    "gender": "Male"
+}, {
+    "id": 35,
+    "first_name": "Christie",
+    "gender": "Female"
+}, {
+    "id": 36,
+    "first_name": "Adams",
+    "gender": "Genderfluid"
+}, {
+    "id": 37,
+    "first_name": "Lynn",
+    "gender": "Female"
+}, {
+    "id": 38,
+    "first_name": "Opaline",
+    "gender": "Female"
+}, {
+    "id": 39,
+    "first_name": "Theressa",
+    "gender": "Genderqueer"
+}, {
+    "id": 40,
+    "first_name": "Stephana",
+    "gender": "Female"
+}, {
+    "id": 41,
+    "first_name": "Freddy",
+    "gender": "Agender"
+}, {
+    "id": 42,
+    "first_name": "Wood",
+    "gender": "Male"
+}, {
+    "id": 43,
+    "first_name": "Leicester",
+    "gender": "Male"
+}, {
+    "id": 44,
+    "first_name": "Callie",
+    "gender": "Female"
+}, {
+    "id": 45,
+    "first_name": "Corrianne",
+    "gender": "Female"
+}, {
+    "id": 46,
+    "first_name": "Torr",
+    "gender": "Male"
+}, {
+    "id": 47,
+    "first_name": "Addi",
+    "gender": "Polygender"
+}, {
+    "id": 48,
+    "first_name": "Shane",
+    "gender": "Female"
+}, {
+    "id": 49,
+    "first_name": "Zandra",
+    "gender": "Female"
+}, {
+    "id": 50,
+    "first_name": "Franchot",
+    "gender": "Male"
+}, {
+    "id": 51,
+    "first_name": "Merci",
+    "gender": "Agender"
+}, {
+    "id": 52,
+    "first_name": "Margalit",
+    "gender": "Female"
+}, {
+    "id": 53,
+    "first_name": "Gradeigh",
+    "gender": "Male"
+}, {
+    "id": 54,
+    "first_name": "Haily",
+    "gender": "Male"
+}, {
+    "id": 55,
+    "first_name": "Cherise",
+    "gender": "Female"
+}, {
+    "id": 56,
+    "first_name": "Dix",
+    "gender": "Female"
+}, {
+    "id": 57,
+    "first_name": "Petunia",
+    "gender": "Female"
+}, {
+    "id": 58,
+    "first_name": "Simmonds",
+    "gender": "Male"
+}, {
+    "id": 59,
+    "first_name": "Mar",
+    "gender": "Male"
+}, {
+    "id": 60,
+    "first_name": "Sonnie",
+    "gender": "Male"
+}, {
+    "id": 61,
+    "first_name": "Lindsey",
+    "gender": "Female"
+}, {
+    "id": 62,
+    "first_name": "Ninon",
+    "gender": "Female"
+}, {
+    "id": 63,
+    "first_name": "Lockwood",
+    "gender": "Male"
+}, {
+    "id": 64,
+    "first_name": "Sonya",
+    "gender": "Female"
+}, {
+    "id": 65,
+    "first_name": "Dennet",
+    "gender": "Male"
+}, {
+    "id": 66,
+    "first_name": "Rudy",
+    "gender": "Male"
+}, {
+    "id": 67,
+    "first_name": "Gearalt",
+    "gender": "Male"
+}, {
+    "id": 68,
+    "first_name": "Liz",
+    "gender": "Genderqueer"
+}, {
+    "id": 69,
+    "first_name": "Lacy",
+    "gender": "Female"
+}, {
+    "id": 70,
+    "first_name": "Micki",
+    "gender": "Female"
+}, {
+    "id": 71,
+    "first_name": "Davon",
+    "gender": "Male"
+}, {
+    "id": 72,
+    "first_name": "Serena",
+    "gender": "Female"
+}, {
+    "id": 73,
+    "first_name": "Lari",
+    "gender": "Female"
+}, {
+    "id": 74,
+    "first_name": "Giusto",
+    "gender": "Male"
+}, {
+    "id": 75,
+    "first_name": "Hew",
+    "gender": "Male"
+}, {
+    "id": 76,
+    "first_name": "Simona",
+    "gender": "Female"
+}, {
+    "id": 77,
+    "first_name": "Antonino",
+    "gender": "Male"
+}, {
+    "id": 78,
+    "first_name": "Melisent",
+    "gender": "Genderfluid"
+}, {
+    "id": 79,
+    "first_name": "Nomi",
+    "gender": "Female"
+}, {
+    "id": 80,
+    "first_name": "Virgil",
+    "gender": "Male"
+}, {
+    "id": 81,
+    "first_name": "Orlan",
+    "gender": "Male"
+}, {
+    "id": 82,
+    "first_name": "Chicky",
+    "gender": "Non-binary"
+}, {
+    "id": 83,
+    "first_name": "Cleo",
+    "gender": "Genderfluid"
+}, {
+    "id": 84,
+    "first_name": "Gretal",
+    "gender": "Female"
+}, {
+    "id": 85,
+    "first_name": "Fae",
+    "gender": "Female"
+}, {
+    "id": 86,
+    "first_name": "Bee",
+    "gender": "Female"
+}, {
+    "id": 87,
+    "first_name": "Olva",
+    "gender": "Female"
+}, {
+    "id": 88,
+    "first_name": "Vonnie",
+    "gender": "Female"
+}, {
+    "id": 89,
+    "first_name": "Brenda",
+    "gender": "Female"
+}, {
+    "id": 90,
+    "first_name": "Bret",
+    "gender": "Male"
+}, {
+    "id": 91,
+    "first_name": "Bryant",
+    "gender": "Male"
+}, {
+    "id": 92,
+    "first_name": "Winfield",
+    "gender": "Male"
+}, {
+    "id": 93,
+    "first_name": "Donn",
+    "gender": "Male"
+}, {
+    "id": 94,
+    "first_name": "Carla",
+    "gender": "Female"
+}, {
+    "id": 95,
+    "first_name": "Alleen",
+    "gender": "Female"
+}, {
+    "id": 96,
+    "first_name": "Archy",
+    "gender": "Male"
+}, {
+    "id": 97,
+    "first_name": "Rania",
+    "gender": "Female"
+}, {
+    "id": 98,
+    "first_name": "Leonard",
+    "gender": "Male"
+}, {
+    "id": 99,
+    "first_name": "Fabien",
+    "gender": "Male"
+}, {
+    "id": 100,
+    "first_name": "Gnni",
+    "gender": "Female"
+}]
+function displayData() {
+    let rows = "";
+    let i = 0;
+    while (i < employees.length - 1) {
+        rows = rows + `<tr>
+                            <td>${employees[i].id}</td>
+                            <td>${employees[i].first_name}</td>
+                            <td>${employees[i].gender}</td>
+                            </tr> `;
+        i++;
+    }
+    document.getElementById('abc').innerHTML = rows;
+}

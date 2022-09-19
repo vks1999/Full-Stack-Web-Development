@@ -1,0 +1,214 @@
+let employees = [{
+    "id": 1,
+    "name": "Brittany",
+    "email": "bblagburn0@theguardian.com"
+}, {
+    "id": 2,
+    "name": "Kiley",
+    "email": "katwood1@godaddy.com"
+}, {
+    "id": 3,
+    "name": "Maryjo",
+    "email": "mchidgey2@nature.com"
+}, {
+    "id": 4,
+    "name": "Keefer",
+    "email": "kclews3@51.la"
+}, {
+    "id": 5,
+    "name": "Gloriane",
+    "email": "ggepp4@stanford.edu"
+}, {
+    "id": 6,
+    "name": "Melina",
+    "email": "mzink5@homestead.com"
+}, {
+    "id": 7,
+    "name": "Carmine",
+    "email": "cflooks6@google.com"
+}, {
+    "id": 8,
+    "name": "Ulberto",
+    "email": "ubambrugh7@prnewswire.com"
+}, {
+    "id": 9,
+    "name": "Jemie",
+    "email": "jsimond8@telegraph.co.uk"
+}, {
+    "id": 10,
+    "name": "Caritta",
+    "email": "clavallie9@microsoft.com"
+}, {
+    "id": 11,
+    "name": "Shane",
+    "email": "spuvea@instagram.com"
+}, {
+    "id": 12,
+    "name": "Jedd",
+    "email": "jtringb@prnewswire.com"
+}, {
+    "id": 13,
+    "name": "Sarine",
+    "email": "smalloyc@independent.co.uk"
+}, {
+    "id": 14,
+    "name": "Dionisio",
+    "email": "dproctord@noaa.gov"
+}, {
+    "id": 15,
+    "name": "Reggy",
+    "email": "rcisare@bloglovin.com"
+}, {
+    "id": 16,
+    "name": "Birgit",
+    "email": "bgillif@a8.net"
+}, {
+    "id": 17,
+    "name": "Henryetta",
+    "email": "hshermarg@storify.com"
+}, {
+    "id": 18,
+    "name": "Wolfie",
+    "email": "wcastilljoh@squarespace.com"
+}, {
+    "id": 19,
+    "name": "Chrissy",
+    "email": "cdickeni@creativecommons.org"
+}, {
+    "id": 20,
+    "name": "Angel",
+    "email": "amyringj@weibo.com"
+}, {
+    "id": 21,
+    "name": "Sarah",
+    "email": "sswynk@microsoft.com"
+}, {
+    "id": 22,
+    "name": "Jolynn",
+    "email": "jchandersl@xinhuanet.com"
+}, {
+    "id": 23,
+    "name": "Ellene",
+    "email": "ebartlettm@sogou.com"
+}, {
+    "id": 24,
+    "name": "Carree",
+    "email": "csizlandn@dmoz.org"
+}, {
+    "id": 25,
+    "name": "Dorotea",
+    "email": "dchedzoyo@youku.com"
+}, {
+    "id": 26,
+    "name": "Lauretta",
+    "email": "lleballp@bizjournals.com"
+}, {
+    "id": 27,
+    "name": "Cesya",
+    "email": "ccorrettq@hp.com"
+}, {
+    "id": 28,
+    "name": "Clerc",
+    "email": "cnewshamr@hibu.com"
+}, {
+    "id": 29,
+    "name": "Nowell",
+    "email": "nsendalls@icq.com"
+}, {
+    "id": 30,
+    "name": "Erwin",
+    "email": "efolbiget@time.com"
+}, {
+    "id": 31,
+    "name": "Bruno",
+    "email": "bgrahlu@tinypic.com"
+}, {
+    "id": 32,
+    "name": "Suki",
+    "email": "spetticanv@geocities.jp"
+}, {
+    "id": 33,
+    "name": "Millicent",
+    "email": "mdesseinew@hubpages.com"
+}, {
+    "id": 34,
+    "name": "Robinette",
+    "email": "rvoulesx@flavors.me"
+}, {
+    "id": 35,
+    "name": "Kizzie",
+    "email": "kbushey@usnews.com"
+}, {
+    "id": 36,
+    "name": "Lev",
+    "email": "ldannielz@kickstarter.com"
+}, {
+    "id": 37,
+    "name": "Lusa",
+    "email": "lkleinmann10@ucsd.edu"
+}, {
+    "id": 38,
+    "name": "Wright",
+    "email": "wpyer11@msu.edu"
+}, {
+    "id": 39,
+    "name": "Abigail",
+    "email": "ajaggar12@yale.edu"
+}, {
+    "id": 40,
+    "name": "Sabrina",
+    "email": "ssirmon13@smugmug.com"
+}, {
+    "id": 41,
+    "name": "Barrie",
+    "email": "broseborough14@blinklist.com"
+}, {
+    "id": 42,
+    "name": "Celina",
+    "email": "ckohneke15@biglobe.ne.jp"
+}, {
+    "id": 43,
+    "name": "Garvey",
+    "email": "gelphick16@list-manage.com"
+}, {
+    "id": 44,
+    "name": "Ryun",
+    "email": "rcadore17@is.gd"
+}, {
+    "id": 45,
+    "name": "Nomi",
+    "email": "nconnaughton18@cnn.com"
+}, {
+    "id": 46,
+    "name": "Emalia",
+    "email": "ewalkden19@stanford.edu"
+}, {
+    "id": 47,
+    "name": "Vinita",
+    "email": "vpauleit1a@spiegel.de"
+}, {
+    "id": 48,
+    "name": "Linc",
+    "email": "lcashman1b@marketwatch.com"
+}, {
+    "id": 49,
+    "name": "Byrom",
+    "email": "bdurban1c@google.ru"
+}, {
+    "id": 50,
+    "name": "Eugenia",
+    "email": "elinster1d@sfgate.com"
+}]
+function displayData() {
+    let rows = "";
+    let i = 0;
+    while (i < employees.length - 1) {
+        rows = rows + ` <tr>
+                            <td>${employees[i].id}</td>
+                            <td>${employees[i].name.toUpperCase()}</td>
+                            <td>${employees[i].email}</td>
+                            <tr> `;
+        i++;
+    }
+    document.getElementById('abc').innerHTML = rows;
+}
