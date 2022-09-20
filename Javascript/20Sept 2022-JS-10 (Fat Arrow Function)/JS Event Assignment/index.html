@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./one.js"></script>
+    <title>Button Assignment</title>
+</head>
+
+<body>
+    <p id="xyz"></p>
+    <button id="abc" onclick="changeColor()">Click Here...</button>
+</body>
+<script>
+    document.getElementById('xyz').innerHTML = new Date();
+    function changeColor() {
+        // document.getElementById('abc').style.backgroundColor = "red";
+        let bRef = document.getElementById('abc');
+        bRef.style.backgroundColor = "red";
+        console.log(bRef);
+    }
+</script>
+
+</html>
