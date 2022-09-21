@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./data.js" type="text/javascript"></script>
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label>User Name : </label>
+        <input type="text" id="username" /> <br />
+        <span id="userMessage" style="color: red;"></span><br />
+        <label>Mobile Number : </label>
+        <input type="text" id="mobilenumber" /> <br />
+        <span id="mMessage" style="color: red;"></span><br /> <br />
+        <button onclick="return formValidate()">Submit</button>
+    </form>
+</body>
+
+</html>
